@@ -1,0 +1,6 @@
+@VehiculeSimulator_HostAddress = http://localhost:5148
+
+GET {{VehiculeSimulator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

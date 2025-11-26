@@ -1,0 +1,141 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Sensitive configuration files (only exclude if they contain secrets)
+# appsettings.json files are included since they only have logging config
+appsettings.Production.json
+appsettings.Staging.json
+**/appsettings.*.Local.json
+
+# Secrets and credentials
+secrets.json
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+
+# Connection strings and API keys
+connectionstrings.json
+*.secrets
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+start.ps1
+test.ps1
+
+mosquitto.conf
+mosquitto_simple.conf
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+SETUP_GUIDE.md
+QUICK_START.md
+Architecture.md
+DESIGN_DECISIONS.md
+Websocket_API.md
+websocket_update.md
+quick_reference.md
+
