@@ -53,11 +53,6 @@ Invoke-RestMethod -Uri "http://localhost:5148/vehicle/start" -Method Post
 Invoke-RestMethod -Uri "http://localhost:5249/api/vehicule/coordinates" -Method Get
 ```
 
-**OR use the automated scripts:**
-```powershell
-.\start.ps1   # Starts all components
-.\test.ps1    # Tests the system
-```
 
 ## 🌐 Access Points
 
