@@ -97,17 +97,6 @@ VehiculeSimulator/
 └── test.ps1                    # Test script
 ```
 
-## 🔧 Configuration
-
-### Coordinate Bounds (Los Angeles Area)
-Edit in `VehiculeSimulator/Program.cs`:
-```csharp
-private const double LatMin = 34.0;
-private const double LatMax = 34.1;
-private const double LonMin = -118.3;
-private const double LonMax = -118.2;
-```
-
 ### Ports
 Edit in `Properties/launchSettings.json` for each project:
 ```json
@@ -123,17 +112,6 @@ listener 1883
 allow_anonymous true
 ```
 
-## 🐛 Troubleshooting
-
-| Problem | Solution |
-|---------|----------|
-| Cannot connect to MQTT broker | Ensure Mosquitto is running on port 1883 |
-| Port already in use | Change port in `launchSettings.json` |
-| No coordinates updating | Verify all 3 components are running |
-| Build errors | Run `dotnet restore` then `dotnet build` |
-
-For detailed troubleshooting, see [SETUP_GUIDE.md](SETUP_GUIDE.md)
-
 ## 📝 How It Works
 
 1. **VehiculeSimulator** generates random GPS coordinates
@@ -145,44 +123,14 @@ For detailed troubleshooting, see [SETUP_GUIDE.md](SETUP_GUIDE.md)
 
 ## 🔐 Security Notice
 
-⚠️ **This configuration is for DEVELOPMENT ONLY**
 
-For production:
-- Enable MQTT authentication
-- Use TLS/SSL encryption
-- Add API authentication (JWT)
-- Implement proper error handling
-- Add rate limiting
 
-## 🎯 Future Enhancements
 
-- [ ] Multi-vehicle support with vehicle IDs
-- [ ] Database persistence (SQL Server/PostgreSQL)
-- [ ] Web UI with real-time map (React/Blazor)
-- [ ] SignalR for real-time web updates
-- [ ] Route history and replay
-- [ ] Geofencing and alerts
-- [ ] Speed and distance calculations
-- [ ] Docker containerization
-- [ ] Azure/AWS deployment
 
-## 📖 Additional Documentation
-
-- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Complete setup instructions with troubleshooting
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Detailed system architecture and diagrams
-- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Command cheat sheet
-
-## 🤝 Contributing
-
-Feel free to:
-- Report bugs
-- Suggest features
-- Submit pull requests
-- Improve documentation
 
 ## 📄 License
 
-This project is for educational and demonstration purposes.
+This project is for educational purposes.
 
 ## 🙏 Acknowledgments
 
